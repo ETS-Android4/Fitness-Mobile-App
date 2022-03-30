@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/log_number"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:background="@drawable/textview_frame"
+        android:gravity="start"
+        android:text="1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/log_name"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/textview_frame"
+        android:gravity="left"
+        android:text="Pushup"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/log_type"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/textview_frame"
+        android:gravity="start"
+        android:text="fit"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/log_calories"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/textview_frame"
+        android:gravity="left"
+        android:text="300"
+        android:textSize="14sp" />
+
+</LinearLayout>

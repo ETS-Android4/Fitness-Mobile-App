@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Meal_LossWeight_Activity">
+
+    <TextView
+        android:id="@+id/meal_OtxtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Meal_Oimage"
+        android:layout_width="412dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="12dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_OtxtTitle" />
+
+    <TextView
+        android:id="@+id/meal_OtxtTotalCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/meal_totalCalories"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Meal_Oimage" />
+
+    <TextView
+        android:id="@+id/meal_OtxtCalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/meal_OtxtTotalCal"
+        app:layout_constraintTop_toBottomOf="@+id/Meal_Oimage" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="214dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_OtxtTotalCal">
+
+        <RadioButton
+            android:id="@+id/meal_OradVegan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_vegan" />
+
+        <RadioButton
+            android:id="@+id/meal_OradNoVegan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_noVegan" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/meal_LChoice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="228dp"
+        android:text="@string/meal_nonfatMilk"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_OtxtDisplayOptions" />
+
+    <TextView
+        android:id="@+id/meal_LChoice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="244dp"
+        android:text="@string/meal_lowFatGreekYogurt"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_LChoice1" />
+
+    <TextView
+        android:id="@+id/meal_txtODisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:text="Ingredients"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_LChoice2" />
+
+    <TextView
+        android:id="@+id/meal_OtxtDisplayOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:textColor="#03A9F4"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/meal_ObtnCalulateCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/meal_btnCalculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meal_txtODisplay" />
+
+    <Button
+        android:id="@+id/meal_ObtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/meal_btnSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/meal_ObtnCalulateCal"
+        app:layout_constraintTop_toBottomOf="@+id/meal_txtODisplay" />
+
+    <!--reference: Bottom Navigation View (https://thumbb13555.pixnet.net/blog/post/318620330-%E3%80%8Eandroid-studio%E3%80%8Fbottomnavigationview%E7%9A%84%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8 )-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigation"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/meal_nav"
+        app:itemHorizontalTranslationEnabled="false"
+        app:labelVisibilityMode="labeled"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitgain">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FITGAIN"
+        android:roundIcon="@mipmap/ic_launcher_fitgain_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FITGAIN">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actualworkout"
+            android:exported="true"
+            android:label="Workout" />
+        <activity
+            android:name=".LoseWeightVideo"
+            android:exported="true"
+            android:label="@string/Workout_loseWeight"
+            android:parentActivityName=".WorkoutActivity" />
+        <activity
+            android:name=".GainMuscleVideo"
+            android:exported="true"
+            android:label="@string/Workout_GainMuscle"
+            android:parentActivityName=".WorkoutActivity" />
+        <activity
+            android:name=".WorkoutActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Meal_LossWeight_Activity"
+            android:exported="true"
+            android:label="Meal Plan" />
+        <activity
+            android:name=".Meal_GainMuscle_Activity"
+            android:exported="true"
+            android:label="Meal Plan" />
+        <activity
+            android:name=".Meal_PlanActivity"
+            android:exported="true"
+            android:label="Meal Plan" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="true"
+            android:label="@string/page_update_profile" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true"
+            android:label="@string/page_profile" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:label="@string/page_register" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MealLogActivity"
+            android:exported="true"
+            android:label="@string/title_activity_meal_log" />
+        <activity
+            android:name=".WorkoutLogActivity"
+            android:exported="true"
+            android:label="@string/title_activity_workout_log" />
+        <activity
+            android:name=".LogActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>

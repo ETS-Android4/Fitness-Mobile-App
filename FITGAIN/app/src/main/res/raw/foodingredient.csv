@@ -1,0 +1,37 @@
+﻿IngredientCode,Ingredient,Amount,Cal,Category,FoodID
+100,Regular Milk,1/4 cup,37,Option1,1
+101,Coconut Milk,1/4 cup,30,Option1,1
+102,Soy Milk,1/4 cup,32,Option1,1
+103,Oat Milk,1/4 cup,25,Option1,1
+104,Protein Powder,2 scoops,300,Option2,1
+105,Vegan Protein Powder,2 scoops,242,Option2,1
+106,Cherries,3/4 cup,69,Display,1
+107,Flaxseeds,1 tbsp,37,Display,1
+108,Cocoa Powder,1 tbsp,12,Display,1
+109,Ice,3-4 cubes,0,Display,1
+110,Water,2-3 cups,0,Display,1
+111,Rolled Oats,1/2 cup,160,Display,3
+112,Chia Seeds,1 tbsp,70,Display,3
+113,Nonfat Milk,1/2cup,55,Option1,3
+114,Soy Milk,1/4 cup,32,Option1,3
+115,Low-fat Greek Yogurt,1/2 cup,80,Option2,3
+116,Coconut Greek Yogurt,1/2 cup,70,Option2,3
+117,Pure Vanilla Extract,1/4 tsp,3,Display,3
+118,Grated Lemon Zest,1/2 tsp,1,Display,3
+119,Berries,1/2 cup,30,Display,3
+120,Ground Beef,8 oz,307,Option1,2
+121,Vegan Ground Beef,4 oz,230,Option1,2
+122,Mayonnaise,1 tbsp,40,Option2,2
+123,Vegan Mayonnaise,1 tbsp,35,Option2,2
+124,Lettuce,2 leaves,2,Display,2
+125,Tomato,2 slices,8,Display,2
+126,Red Onion,2 slices,8,Display,2
+127,Ketchup,1 tbsp,19,Display,2
+128,Green Beans,3 cups,93,Display,2
+129,Salmon,4 oz,236,Option1,4
+130,Vegan Salmon,4 oz,200,Option1,4
+131,Teriyaki Sauce,2 tbsp,32,Option2,4
+132,Vegan Teriyaki Sauce,2 tbsp,30,Option2,4
+133,Steamed Carrots,1 cup,60,Display,4
+134,Steamed Broccoli,1 cup,40,Display,4
+135,Sesame Seeds,1 tsp,17,Display,4

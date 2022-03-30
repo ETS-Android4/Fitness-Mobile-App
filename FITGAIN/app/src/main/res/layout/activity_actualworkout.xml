@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actualworkout">
+
+
+    <!-->
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/ButtonStart"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="@string/ButtonStop"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="654dp" />
+-->
+
+
+<!--reference: Bottom Navigation View (https://thumbb13555.pixnet.net/blog/post/318620330-%E3%80%8Eandroid-studio%E3%80%8Fbottomnavigationview%E7%9A%84%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8 )-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:itemHorizontalTranslationEnabled="false"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/meal_nav" />
+
+    <TextView
+        android:id="@+id/Workout_txtVideoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/Workout_VideoPlayer"
+        android:layout_width="412dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Workout_txtVideoTitle" />
+
+    <Button
+        android:id="@+id/Workout_btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/ButtonPlay"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Workout_VideoPlayer" />
+
+    <Button
+        android:id="@+id/Workout_btnPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="66dp"
+        android:text="@string/ButtonPause"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Workout_btnPlay"
+        app:layout_constraintTop_toBottomOf="@+id/Workout_VideoPlayer" />
+
+    <Button
+        android:id="@+id/Workout_btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/ButtonDone"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Workout_VideoPlayer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,158 @@
+<resources>
+    //smoothies
+    <string name="app_name">FITGAIN</string>
+    <string name="txtTitleGetM">Gain Muscle</string>
+    <string name="txtTitleLoseW">Loss Weight</string>
+
+    <string name="meal_txtTitle">Double Chocolate Cherry Smoothie</string>
+    <string name="meal_totalCalories">Total Calories: </string>
+    <string name="meal_txtCaloriesValue">448 calories</string>
+    <string name="meal_vegan">Vegan</string>
+    <string name="meal_noVegan">No Vegan</string>
+    <!--    <string name="meal_choiceMilk">Milk (1/4 cup):</string>-->
+    <string name="meal_choiceMilk">Milk:</string>
+    <!--    <string name="meal_choiceProPower">Protein Powder (2 scoops):</string>-->
+    <string name="meal_choiceProPower">Protein Powder:</string>
+    <string name="meal_milkPrompt">Choose the Type of Milk</string>
+    <string name="meal_proPowderPrompt">Choose the Type of Protein Power</string>
+    <string name="meal_cherries">Cherries (3/4 cup)</string>
+    <string name="meal_Flaxseed">Flaxseeds (1tbsp)</string>
+    <string name="meal_cocoPowder">Cocoa Powder (1tbsp)</string>
+    <string name="meal_ice">Ice (3-4 cubes)</string>
+    <string name="meal_water">water (2-3 cups)</string>
+    <string name="meal_btnCalculate">Calculate Calories</string>
+    <string name="meal_btnSave">Save</string>
+    <string name="chooseOption">Choose Your Option</string>
+
+    <string-array name="meal_milkOprions">
+        <item>Coconut Milk</item>
+        <item>Regular Milk</item>
+        <item>Soy Milk</item>
+        <item>Oat Milk</item>
+    </string-array>
+
+    <string-array name="meal_proPowderOptions">
+        <item>Protein Powder</item>
+        <item>Vegan Protein Powder</item>
+    </string-array>
+
+
+    //Overnight oat
+    <string name="meal_OtxtTitle">Overnight Oats with Berries</string>
+    <string name="meal_rolledOat">Rolled Oats (1/2 cup)</string>
+    <string name="meal_chiaSeeds">Chia Seeds (1tbsp)</string>
+    <!--    <string name="meal_nonfatMilk">Nonfat Milk (1/2 cup)</string>-->
+    <string name="meal_nonfatMilk">Milk (1/2 cup)</string>
+    <string name="meal_soyMilk">Soy Milk (1/2 cup)</string>
+    <!--    <string name="meal_lowFatGreekYogurt">Low-fat Greek Yogurt (1/2 cup)</string>-->
+    <string name="meal_lowFatGreekYogurt">Greek Yogurt (1/2 cup)</string>
+    <string name="meal_coconutGreekMilk">Coconut Greek Yogurt (1/2 cup)</string>
+    <string name="meal_vanillaExtract">Pure Vanilla Extract (1/4 tsp)</string>
+    <string name="meal_lemonZest">Grated Lemon Zest (1/2 tsp)</string>
+    <string name="meal_berries">Berries (1/2 cup)</string>
+    <string name="meal_OtxtCaloriesValue">399 calories</string>
+
+
+    //David
+
+    <string name="page_login">Login</string>
+    <string name="page_register">Register</string>
+    <string name="page_profile">Profile</string>
+    <string name="page_update_profile">Update Profile</string>
+    <string name="Meal">Meal</string>
+    <string name="workout">Workout</string>
+    <string name="BodyInfo">BodyInfo</string>
+    <string name="Log">Log</string>
+    <!-- add for title profile page -->
+    <string name="age">Age:</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+
+
+    //Rick
+
+    <string name="Workout_loseWeight">Lose Weight</string>
+    <string name="Workout_GainMuscle">Gain Muscle</string>
+    <string name="Workout_Title">"What's your goal? "</string>
+    <string name="Describe">"Video Description "</string>
+    <string name="Video">Video</string>
+    <string name="Add">Add to workout plan</string>
+    <string name="ButtonDone">Done and Save to log</string>
+    <string name="ButtonPause">Pause</string>
+    <string name="ButtonPlay">Play</string>
+    <string name="ImageContent">description</string>
+    // gain muscle video title
+    <string-array name="gain_muscle_video">
+        <item>Chest workout</item>
+        <item>Leg workout</item>
+        <item>Abs workout</item>
+        <item>Standing Abs workout</item>
+        <item>Full body stretch part 1</item>
+        <item>Full body stretch part 2</item>
+        <item>Full body stretch part 3</item>
+    </string-array>
+
+    //gain muscle video Description
+    <string-array name="gain_muscle_description">
+        <item>This is a follow along chest workout that will take you 5 minutes to LIGHT YOUR PECS ON FIRE!</item>
+        <item>Home Legs workout that you can do at home! </item>
+        <item>"6 PACK SUICIDE" 4 Minute Abs Workout from HELL</item>
+        <item>You do not have to go down to the floor to work your abs, and this quick workout proves it. </item>
+        <item>Stretch your body part 1</item>
+        <item>Stretch your body part 2</item>
+        <item>Stretch your body part 3</item>
+
+    </string-array>
+    //lose weight video title
+    <string-array name="lose_weight_video">
+        <item>Lean Legs</item>
+        <item>Flat Abs</item>
+        <item>Burn Arm Fat</item>
+        <item>Lose Belly Fat</item>
+        <item>4 Minute Tabata</item>
+        <item>Full body stretch part 1</item>
+        <item>Full body stretch part 2</item>
+        <item>Full body stretch part 3</item>
+    </string-array>
+    //lose weight video description
+    <string-array name="lose_weight_description">
+        <item>5 min lean legs workout! This one is INTENSE</item>
+        <item>Abs burning workout you can do at home in only 5 minutes! </item>
+        <item>Burn Arm fat in 7 days</item>
+        <item>5 min lose belly fat at home</item>
+        <item>Short on time? Feel like a quick workout to get your heart pumping? Try this 4 Minute Workout</item>
+        <item>Stretch your body part 1</item>
+        <item>Stretch your body part 2</item>
+        <item>Stretch your body part 3</item>
+
+    </string-array>
+
+    //Dong
+    <string name="log_txtWorkoutLog">&#160;&#160;Workout&#160;&#160;&#160;Calories(KJ)\n\n
+        1. Push up &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\t\t200\n
+        2. Jump Squat \t&#160;&#160;300\n
+        3. Crunch      &#160; \t\t\t \t\t\t\t\t\t\t300\n\n
+           Total:      \t\t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; \t\t800\n\n
+    </string>
+
+    <string name="log_txtMealLog"> &#160;&#160;Workout&#160;&#160;&#160;Calories(KJ)\n\n
+    1. Berger \t\t\t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\t\t200\n
+    2. Steak \t\t\t\t\t\t\t\t&#160;\&#160;&#160;&#160;&#160;300\n
+    3. Noodle \t\t\t\t\t\t&#160;&#160;&#160;&#160;&#160;300\n
+    4. Cream soup &#160;&#160;&#160;300\n\n
+    Total:      \t\t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; \t\t1100\n\n</string>
+    <string name="title_activity_meal_log">Meal Log\</string>
+    <string name="title_activity_workout_log">Workout Log</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="txtbtnWorkout">Workout Log</string>
+    <string name="txtMylogs">My Logs</string>
+    <string name="txtbtnMeal">Meal Log</string>
+
+</resources>
